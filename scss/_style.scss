@@ -1,0 +1,78 @@
+$black: #040404;
+$white: #fcfcfc;
+$orange: #FF4519;
+$red: #AF0712;
+$blue: #194459;
+
+$dark-orange: darken($orange, 20%);
+$dark-red: darken($red, 20%);
+$light-blue: lighten($blue, 20%);
+
+//font-family: 'Source Code Pro', monospace;
+//font-family: 'Open Sans', sans-serif;
+
+.bold {
+  font-weight: bold;
+}
+
+.black {
+  background-color: $black;
+  margin: 0;
+}
+
+.white-text {
+  font-family: 'Open Sans', sans-serif;
+  color: $white;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  padding: 0;
+  margin: 0;
+}
+
+.header-title {
+  font-weight: bold;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#alex {
+  height: 90vh;
+  background-color: $orange;
+  transition: all 200ms ease;
+  &:hover {
+    background-color: $dark-orange;
+  }
+
+}
+
+#courtney {
+  height: 90vh;
+  background-color: $blue;
+  transition: all 200ms ease;
+  &:hover {
+    background-color: $light-blue;
+  }
+}
+
+#isaiah {
+  height: 90vh;
+  background-color: $red;
+  transition: all 200ms ease;
+  &:hover {
+    background-color: $dark-red;
+  }
+}
+
+
+
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
