@@ -1,48 +1,16 @@
-# Foundation for Sites Template
+# Web Development Tutorial Framework
+###### Created by Alexander Six
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+### About this project:
+This project was created to help teach about front-end web development, while giving the sense of working towards something greater by allowing collaboration amongst the people learning.
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+### How to use this framework:
+This is a very simple skeleton project to use. Each student has their own respective directory (marked with their name) that they can use to create whatever kind of website they can imagine. Each directory already contains an index.html entry-point file - which already has an HTML skeleton laid out - and an assets folder that contains subdirectories for all CSS, Javascript, and image files.
 
-## Installation
+Each respective repository can be accessed through the by opening the index.html page in the main directory, and then clicking on the name of the student on the page.
 
-To use this template, your computer needs:
-
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
-
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-bower install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+### Learning Outcomes:
+By participating in this front-end tutorial, you will learn the following fundamental skills:
+  * How to create a basic web page using HTML5, CSS3, and Javascript
+  * How to use Git (Github) to add to a larger, dynamic project
+  * How to link together web pages to form a static website.
